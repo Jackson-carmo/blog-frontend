@@ -1,0 +1,79 @@
+.home h1 {
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.post {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.5rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid #777;
+    margin-left: 2rem;
+}
+
+.post h3,
+.post h2 {
+    margin-bottom: 1rem;
+}
+
+.conteudo-home {
+    max-width: 140ch;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+@media only screen and (max-width: 600px) {
+    .conteudo-home {
+        max-width: 30ch;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+  }
+
+.post h2::first-letter {
+    text-transform: uppercase;
+}
+
+
+.btn {
+    background-color: #fff;
+    color: #0e1217;
+    border: 1px solid #fff;
+    opacity: 1;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    max-width: 100px;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-right: 5rem;
+    font-weight: bold;
+}
+
+.btn:hover {
+    color: #fff;
+    background-color: #212F3C ;
+}
+
+.btn-delete {
+    background-color: #fff;
+    color: #0e1217;
+    border: 1px solid #fff;
+    opacity: 1;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    max-width: 100px;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+.btn-delete:hover {
+    color: #fff;
+    background-color: red;
+}
